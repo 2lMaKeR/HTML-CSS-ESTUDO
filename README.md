@@ -1,2 +1,2 @@
 # HTML-CSS-ESTUDO
- Estudos de HTML e CSS
+ Estudos de HTML
