@@ -1,8 +1,20 @@
+*{ /*vai pegar todos os elementos da pag*/
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
-strong{
+.título_destaque{
     color: aqua;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
 }
