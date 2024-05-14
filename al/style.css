@@ -42,18 +42,27 @@ strong.titulo_destaque{
 
 .apresentacao_links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_links_subtitulo{
+    font-family: 'Krona one',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao_links_link{
-    background-color: aqua;
-    width: 270px;
+    border: 2px solid aqua;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
