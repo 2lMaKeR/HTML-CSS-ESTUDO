@@ -55,6 +55,9 @@ strong.titulo_destaque{
 }
 
 .apresentacao_links_link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid aqua;
     width: 378px;
     text-align: center;
@@ -65,4 +68,8 @@ strong.titulo_destaque{
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links_link:hover{
+    background-color: #272727;
 }
