@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght400;600&display=swap');
 
+:root{
+    --cor-principal:black;
+    --cor-secundaria:white;
+    --cor-tercearia:rgb(255, 196, 0);
+    --cor-hover:#272727;
+
+    --fonte-primaria:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+}
+
 *{ /*vai pegar todos os elementos da pag*/
     margin: 0;
     padding: 0;
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho{
@@ -22,10 +31,10 @@ body{
 }
 
 .cabecalho_menu_link{
-    font-family: 'Montserrat', sans-serif;
+    font-family:var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: aqua;
+    color: var(--cor-tercearia);
     text-decoration: none;
 }
 
@@ -45,17 +54,17 @@ body{
 
 .apresentacao_conteudo_titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family:var(--fonte-primaria);
 }
 
 strong.titulo_destaque{
-    color: aqua;
+    color: var(--cor-tercearia);
 }
 
 
 .apresentacao_conteudo_texto{
-    font-size: 24;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-family:var(--fonte-secundaria);
 }
 
 .apresentacao_links{
@@ -67,7 +76,7 @@ strong.titulo_destaque{
 }
 
 .apresentacao_links_subtitulo{
-    font-family: 'Krona one',sans-serif;
+    font-family:var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -76,7 +85,7 @@ strong.titulo_destaque{
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid aqua;
+    border: 2px solid var(--cor-tercearia);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -84,20 +93,20 @@ strong.titulo_destaque{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
+    font-family:var(--fonte-secundaria);
 }
 
 .apresentacao_links_link:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .rodape{
     padding: 24px;
-    color: black;
-    background-color: aqua;
+    color: var(--cor-principal);
+    background-color: var(--cor-tercearia);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family:var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
