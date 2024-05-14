@@ -17,7 +17,7 @@ strong.titulo_destaque{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,4 +72,14 @@ strong.titulo_destaque{
 
 .apresentacao_links_link:hover{
     background-color: #272727;
+}
+
+.rodape{
+    padding: 24px;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
