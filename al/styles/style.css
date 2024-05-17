@@ -127,5 +127,10 @@ strong.titulo_destaque{
 
     .apresentacao{
         flex-direction: column-reverse;
+        padding:  5%;
+    }
+
+    .apresentacao_conteudo{
+        width: auto;
     }
 }
