@@ -1,8 +1,17 @@
 :root{
+/* cores */
     --branco-principal: #FFFFFF;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+
+/* fontes */
+    --fonte-principal: 'Inter';
+
+/* tamanho das fontes*/
+    --tamanho-de-fonte-titulo: 28px;
+    --tamanho-de-fonte-padrão: 16px;
+    --tamanho-de-fonte-miuda: 12px;
 }
 
 *{
@@ -13,6 +22,9 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-de-fonte-padrão);
+    font-weight: 400;
 }
 
 .principal{
@@ -23,5 +35,29 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
+.container_titulo{
+    font-size: var(--tamanho-de-fonte-titulo);
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_aviso{
+    font-size: var(--tamanho-de-fonte-miuda);
+    color: var(--cinza-secundario);
+}
