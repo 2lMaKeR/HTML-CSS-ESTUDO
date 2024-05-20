@@ -14,8 +14,13 @@
     --tamanho-de-fonte-miuda: 12px;
 
     --tamanho-de-fonte-titulo-bold: 48px;
+    --tamanho-de-fonte-titulo-citacao: 32px;
+
+    --tamanho-de-fonte-direitos: 14px;
 }
 
+
+/* configs gerais */
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +48,8 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+
+/* section principal */
 .container_caixa{
     margin: 0 6em;
 }
@@ -76,13 +83,15 @@ body{
     color: var(--cinza-secundario);
 }
 
-.container_descricao{
-    padding: 2em;
-}
 
+/* sections secundarias */
 .secundario{
     align-items: center;
     margin: 0 10em;
+}
+
+.container_descricao{
+    padding: 2em;
 }
 
 .secundario_imagem{
@@ -105,6 +114,51 @@ body{
     margin: 1em;
 }
 
+
+/* dispositivos */
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: var(--tamanho-de-fonte-titulo-bold);
+    color: var(--branco-principal);
+}
+
 .dispositivos_lista{
     display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista_item{
+    font-size: var(--tamanho-de-fonte-titulo-citacao);
+    color: var(--branco-principal);
+}
+
+
+/* rodape */
+.rodape{
+    text-align: center;
+    margin: 0 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link_item{
+    color: var(--branco-principal);
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.rodape_texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: var(--tamanho-de-fonte-direitos);
 }
