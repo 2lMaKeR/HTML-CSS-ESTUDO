@@ -10,7 +10,7 @@
     --fonte-secundaria:'Montserrat', sans-serif;
 }
 
-*{ /*vai pegar todos os elementos da pag*/
+*{
     margin: 0;
     padding: 0;
 }
@@ -61,7 +61,6 @@ body{
 strong.titulo_destaque{
     color: var(--cor-tercearia);
 }
-
 
 .apresentacao_conteudo_texto{
     font-size: 1.5rem;

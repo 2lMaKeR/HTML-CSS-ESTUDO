@@ -1,27 +1,18 @@
 :root{
-/* cores */
     --branco-principal: #FFFFFF;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --botao-azul-efeito: purple;
-
-/* fontes */
     --fonte-principal: 'Inter';
-
-/* tamanho das fontes*/
-    --tamanho-de-fonte-titulo: 28px;
-    --tamanho-de-fonte-padrão: 16px;
-    --tamanho-de-fonte-miuda: 12px;
-
     --tamanho-de-fonte-titulo-bold: 48px;
     --tamanho-de-fonte-titulo-citacao: 32px;
-
+    --tamanho-de-fonte-titulo: 28px;
+    --tamanho-de-fonte-padrão: 16px;
     --tamanho-de-fonte-direitos: 14px;
+    --tamanho-de-fonte-miuda: 12px;
 }
 
-
-/* configs gerais */
 *{
     margin: 0;
     padding: 0;
@@ -49,8 +40,6 @@ body{
     grid-template-columns: 50% 50%;
 }
 
-
-/* section principal */
 .container_caixa{
     margin: 0 6em;
 }
@@ -84,8 +73,6 @@ body{
     color: var(--cinza-secundario);
 }
 
-
-/* sections secundarias */
 .secundario{
     align-items: center;
     margin: 0 10em;
@@ -115,8 +102,6 @@ body{
     margin: 1em;
 }
 
-
-/* dispositivos */
 .dispositivos{
     text-align: center;
 }
@@ -138,8 +123,6 @@ body{
     color: var(--branco-principal);
 }
 
-
-/* rodape */
 .rodape{
     text-align: center;
     margin: 0 3em;
