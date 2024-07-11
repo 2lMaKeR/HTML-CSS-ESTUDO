@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e90ff, #32cd32);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .subtitle {
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #1c86ee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Login</div>
+        <div class="subtitle">Digite seus dados para acessar.</div>
+        <div class="input-group">
+            <input type="text" id="username" name="username" placeholder="Usuário" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+        </div>
+        <button type="submit">Entrar</button>
+    </div>
+</body>
+</html>
