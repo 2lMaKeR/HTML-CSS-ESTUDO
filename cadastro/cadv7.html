@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, blue, green);
+            font-family: Arial, sans-serif;
+            font-size: 14px; /* Restaurando a fonte geral para 14px */
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 50%;
+            max-width: 300px; /* Ajusta a largura máxima para 300px */
+        }
+
+        .container h1 {
+            text-align: left; /* Centralizado à esquerda */
+            font-weight: bold;
+            margin-bottom: 5px; /* Ajusta o espaçamento abaixo do título */
+        }
+
+        .container p {
+            margin-bottom: 20px; /* Espaçamento abaixo do texto de instrução */
+        }
+
+        .container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px; /* Ajusta o tamanho da fonte dos inputs */
+        }
+
+        .container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+        }
+
+        .container button:hover {
+            background-color: #45a049;
+        }
+
+        .container p {
+            margin-top: 20px; /* Aumenta a distância entre o título e o texto */
+            margin-bottom: 10px; /* Aproxima o texto do input "Nome de usuário" */
+        }
+
+        .container input:first-of-type {
+            margin-top: 10px; /* Ajusta o espaçamento acima do input "Nome de usuário" */
+            margin-bottom: 30px; /* Aumenta o espaçamento entre o input "Nome de usuário" e o input "Senha" */
+        }
+
+        .container input:nth-of-type(3) {
+            margin-bottom: 40px; /* Aumenta o espaçamento entre "Confirme a sua senha" e o botão em 2x */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <p>Insira as informações correspondentes.</p>
+        <input type="text" placeholder="Nome de usuário" required>
+        <input type="password" placeholder="Senha" required>
+        <input type="password" placeholder="Confirme a sua senha" required>
+        <button type="submit">Criar cadastro</button>
+    </div>
+</body>
+</html>
